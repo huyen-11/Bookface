@@ -1,0 +1,30 @@
+.sidebar {
+  flex: 0 0 22.5%;
+  height: calc(100vh - 60px);
+  padding: 15px 0 0 7px;
+  background-color: #f0f2f5;
+  overflow: hidden;
+  position: sticky;
+  top: 60px;
+}
+.sidebar:hover {
+  overflow: auto;
+}
+/* sidebar-footer */
+.sidebar-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.sidebar-footer div {
+  text-decoration: none;
+  color: #555;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+.sidebar-footer div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

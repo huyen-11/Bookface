@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  padding: 0 15px;
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid #f0f2f5;
+  box-shadow: 0px 1px 4px #f0f2f5;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.header-left {
+  flex: 0 0 22.5%;
+  display: flex;
+  align-items: center;
+}
+.header-right {
+  flex: 0 0 22.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-middle {
+  flex: 1 1 0;
+}
+.header-nav {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.header-left .logo img {
+  width: 40px;
+  height: 40px;
+}
+.header-left .header-input {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 210px;
+  padding: 0 10px;
+  background-color: #f0f2f5;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.header-left input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #333;
+}
+.header-left input::placeholder {
+  font-size: 14px;
+}
+.header-left input:focus {
+  outline: none;
+}
+.header-left .header-input img {
+  height: 15px;
+  width: 15px;
+  color: #ddd;
+}
+.header-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 40px;
+  margin: 2px 0 0 5px;
+}
+ul li:first-child .header-page {
+  margin-left: 0;
+}
+.header-page.active {
+  border-bottom: 2px solid #1877f2;
+}
+.header-page img {
+  width: 25px;
+  height: 25px;
+}
+.header-page:hover {
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 7px;
+}
+.header-profile {
+  display: flex;
+  border-radius: 50px;
+  height: 34px;
+}
+.header-profile:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+.header-profile .avatar {
+  margin: 3px 3px;
+}
+.header-profile span {
+  padding-right: 10px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-avatar img {
+  width: 28px;
+  height: 28px;
+}
+.header-option {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 10px 8px;
+  transition: background-color 0.3s ease;
+}
+.header-option:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+.header-option img {
+  width: 15px;
+  height: 15px;
+}

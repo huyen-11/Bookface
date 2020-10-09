@@ -1,0 +1,9 @@
+.avatar img {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.avatar img:hover {
+  cursor: pointer;
+}

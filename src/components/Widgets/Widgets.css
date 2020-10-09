@@ -1,0 +1,14 @@
+.widgets {
+  flex: 0 0 22.5%;
+  height: calc(100vh - 60px);
+  background-color: #f1f2f5;
+  position: sticky;
+  overflow-y: auto;
+  top: 80px;
+  margin-top: 15px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.widgets::-webkit-scrollbar {
+  display: none;
+}

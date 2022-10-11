@@ -1,6 +1,7 @@
 ## General info
 
 Bookface is a hobby project that emulate the Facebook experience, build on top of React, Redux and Google Firebase. 
+<br>
 Deployed: [clone-facebook-huyen.web.app](clone-facebook-huyen.web.app)  
 Preview:  
 <br>
